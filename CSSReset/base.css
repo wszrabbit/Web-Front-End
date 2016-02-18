@@ -22,7 +22,7 @@ textarea{resize:none}
 label {vertical-align: middle}
 input:focus , textarea:focus {outline: none}    
 .text{height:20px;vertical-align: middle; border: 1px solid #CCC}
-.radio{	vertical-align:-3px;*vertical-align:-1px;border:none 0;	border-top-width: 0px}
+.radio{	vertical-align:-3px;*vertical-align:-1px;border:none 0;	border-top-width: 0;}
 .btn {border:none 0;text-align:center;vertical-align: middle}
 
 /*文字排版*/
@@ -54,15 +54,5 @@ input:focus , textarea:focus {outline: none}
 .none{display:none}
 .w{width:100%}
 .h{height:100%}
-.mc {margin:0px auto;}
-.back {
-	height: 18px;
-	width: 120px;
-	position: absolute;
-	top: 0px;
-	right: 30px;
-	background-image: url(../../../images/backbg.png);
-	text-align: center;
-	color: #FFF;
-}
-.back:hover{ color:#069}
+.mc {margin:0 auto;}
+
