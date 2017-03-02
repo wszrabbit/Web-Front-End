@@ -45,6 +45,7 @@ input:focus , textarea:focus {outline: none}
 .cl{clear:left}
 .cr{clear:right}
 .clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.clearfix{zoom:1;}
 * html .clearfix{height:1%}
 .vm{vertical-align:middle}
 .pr {position: relative;}
